@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.topo_geral {
+    width: 100vw; /*View Width*/
+    height: 50vh; /*View Height*/
+    background-color: #000;
+}
+
+.conteudo_topo {
+    width: 90%;
+    max-width: 1230px;
+    height: 100%;
+    background: url(../Imagens/Background.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    align-content:space-between;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    padding-top: 5em;
+    filter: grayscale(0.2);
+   
+}
+
+h1 {
+    font-size:2em;
+    color: #fff; 
+    width: 15em;
+    background-color: rgba(170, 170, 170, 0.596);   
+    margin: auto;
+    padding: 0.5em 0;
+    text-shadow: 1px 1px 2px #000,
+                 2px 2px 2px #000,
+                -2px -2px 2px #000;
+    filter: blur(0.5px);
+  }
+
+  h1:hover{
+      filter: blur(0px);
+  }
+
+  main {
+background-color: #ccc;
+width: 100vw;
+
+  }
+
+  .conteudo_geral {
+width: 90%;
+max-width: 1230px;
+height: 100vh;
+background-color: #fff;
+margin: auto;
+text-align: center;
+padding-top: 2em;
+text-transform: uppercase;  
+
+  }
+
+
+
+
+
